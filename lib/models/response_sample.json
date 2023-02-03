@@ -1,0 +1,95 @@
+[
+       {
+          "food_name":"chili",
+          "serving_unit": "bowl (2 cups)",
+          "tag_name":"chili",
+          "serving_qty": 1,
+          "common_type": null,
+          "tag_id": 243,
+          "photo":{
+             "thumb":"https://nix-tag-images.s3.amazonaws.com/243_thumb.jpg"
+          },
+          "locale":"en_US"
+       },
+       {
+          "food_name":"cheese",
+          "serving_unit":"slice (1 oz)",
+          "tag_name":"cheese",
+          "serving_qty":1,
+          "common_type":null,
+          "tag_id":1034,
+          "photo":{
+             "thumb":"https://nix-tag-images.s3.amazonaws.com/1034_thumb.jpg"
+          },
+          "locale":"en_US"
+       },
+       {
+          "food_name":"cheddar",
+          "serving_unit":"oz",
+          "tag_name":"cheddar",
+          "serving_qty":1,
+          "common_type":null,
+          "tag_id":458,
+          "photo":{
+             "thumb":"https://nix-tag-images.s3.amazonaws.com/458_thumb.jpg"
+          },
+          "locale":"en_US"
+       },
+       {
+          "food_name":"chicken",
+          "serving_unit":"oz",
+          "tag_name":"chicken",
+          "serving_qty":3,
+          "common_type":null,
+          "tag_id":9,
+          "photo":{
+             "thumb":"https://nix-tag-images.s3.amazonaws.com/9_thumb.jpg"
+          },
+          "locale":"en_US"
+       },
+       {
+          "food_name":"chocolate",
+          "serving_unit":"piece",
+          "tag_name":"chocolate",
+          "serving_qty":1,
+          "common_type":null,
+          "tag_id":268,
+          "photo":{
+             "thumb":"https://nix-tag-images.s3.amazonaws.com/268_thumb.jpg"
+          },
+          "locale":"en_US"
+       },
+       {
+          "food_name":"Blueberry Flavor Yogurt",
+          "serving_unit":"container",
+          "nix_brand_id":"51db37bb176fe9790a898da9",
+          "brand_name_item_name":"Chobani Blueberry Flavor Yogurt",
+          "serving_qty":1,
+          "nf_calories":60,
+          "photo":{
+             "thumb":"https://nutritionix-api.s3.amazonaws.com/60b63d1e3ef1dd0006f73424.jpeg"
+          },
+          "brand_name":"Chobani",
+          "region":1,
+          "brand_type":2,
+          "nix_item_id":"60b63d1e3ef1dd0006f73423",
+          "locale":"en_US"
+       },
+       {
+          "food_name":"Original Mild Free Range Turkey Stick",
+          "serving_unit":"stick",
+          "nix_brand_id":"55351ae13e2ec4557ffe703f",
+          "brand_name_item_name":"Chomps Original Mild Free Range Turkey Stick",
+          "serving_qty":1,
+          "nf_calories":60,
+          "photo":{
+             "thumb":"https://nutritionix-api.s3.amazonaws.com/6008361eb7cb499e21741002.jpeg"
+          },
+          "brand_name":"Chomps",
+          "region":1,
+          "brand_type":2,
+          "nix_item_id":"5bd953ea0ff55f943ab2d271",
+          "locale":"en_US"
+       }
+   ]
+ 
