@@ -43,6 +43,7 @@ class _SearchBarState extends State<_SearchBar> {
       padding: const EdgeInsets.all(8.0),
       child: Container(
         decoration: BoxDecoration(
+          borderRadius: BorderRadius.circular(8),
           shape: BoxShape.rectangle,
           color: Theme.of(context).primaryColorLight,
         ),
@@ -90,14 +91,21 @@ class _SearchBody extends StatelessWidget {
                   child: ListView.builder(
                     itemCount: state.items.length,
                     itemBuilder: (BuildContext context, int index) {
-                      return ListTile(
-                        title: Text(food[index].foodName.toString()),
+                      return Card(
+                        elevation: 2,
+                        child: ListTile(
+                          leading: Image.network(
+                              food[index].photo!.thumb == null
+                                  ? ""
+                                  : food[index].photo!.thumb.toString()),
+                          title: Text(food[index].foodName.toString()),
+                        ),
                       );
                     },
                   ),
                 );
         }
-        return const Text('Please enter a term to begin');
+        return const Text('');
       },
     );
   }
